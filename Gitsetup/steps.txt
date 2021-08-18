@@ -1,0 +1,32 @@
+http://www.github.com 
+1.create Github A/c 
+2.create Github code repository(server Repo) 
+
+Laptop
+
+step 3: download ans install git software 
+Git - distributed version Control System 
+
+step 4: create local folder(project)/Working Dir 
+		open in vs code editor(IDE)
+
+step 5: execute github repository commands  in VS code editor
+
+>git init 
+>git remote add "repo url" 
+
+>git config --global user.name "username"
+>git config --global user.email "email"
+
+step 6: create some code(html,js,java, python)
+
+--------------------------------------------
+Step 7: comit and push (git commit) 
+        git push -u origin master/main 
+		close VS Code and open 
+		
+
+Note: First time, it is going ask/prompting Window
+      we need to login and authorise github. 
+	  
+		
