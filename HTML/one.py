@@ -1,1 +1,0 @@
-prinit "hello"
