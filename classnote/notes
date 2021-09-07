@@ -1,0 +1,5 @@
+Incr and Decr
+
+Note : we cant apply incr and decr operators for values.
+       Apply only for variables.
+       variable has - number (integer/ float)
