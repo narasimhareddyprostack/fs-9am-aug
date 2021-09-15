@@ -1,0 +1,4 @@
+class Rajini{
+
+}
+new Rajini();
