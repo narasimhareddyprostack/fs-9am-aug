@@ -1,4 +1,6 @@
-class Rajini{
-
+function sum(x, y, z) {
+  return x + y + z;
 }
-new Rajini();
+let numbers = [1, 2, 3];
+console.log(sum(...numbers));
+console.log(sum.apply(null, numbers));
