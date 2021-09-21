@@ -1,0 +1,5 @@
+npx create-react-app react-16
+
+cd react-16
+
+npm start 
