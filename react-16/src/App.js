@@ -1,12 +1,10 @@
-import React from "react";
-import Navbar from "./Navbar";
-import Footer from "./component/Footer";
-class App extends React.Component {
+import React, { Component } from "react";
+import Navbar from "./component/Navbar";
+class App extends Component {
   render() {
     return (
       <div>
         <Navbar />
-        <Footer />
       </div>
     );
   }
