@@ -1,9 +1,11 @@
+import React from "react";
+import "./Navbar.css";
 class Navbar extends React.Component {
   render() {
     return (
       <div>
         <nav>
-          <a> React - Component Styling</a>
+          <a href="#"> React - Component Styling</a>
         </nav>
       </div>
     );
