@@ -1,8 +1,12 @@
 import React, { Component } from "react";
-
-class App extends Component {
+/* import "./assets/css/super.css"; */
+export class App extends Component {
   render() {
-    return <div></div>;
+    return (
+      <div>
+        <button className="btn btn-success">Test</button>
+      </div>
+    );
   }
 }
 

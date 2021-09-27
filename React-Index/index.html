@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <script
+      crossorigin
+      src="https://unpkg.com/react@17/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"
+    ></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+  <script type="text/babel">
+    class Bandh extends React.Component {
+      render() {
+        return (
+          <div>
+            <h4>Bandth not there</h4>
+            <pre>{JSON.stringify(this.props)}</pre>
+          </div>
+        );
+      }
+    }
+    let ReactSession = () => {
+      return <h5>React Index File</h5>;
+    };
+    function Dispaly() {
+      let TodayDate = 26;
+      return (
+        <div>
+          <h3>Today Bharath Bandh : Display Comp</h3>
+          <Bandh prop1={TodayDate} />
+        </div>
+      );
+    }
+    function App() {
+      return (
+        <div>
+          <h1>One</h1>
+          <h2>Two</h2>
+          <Dispaly />
+          <Bandh />
+          <ReactSession />
+        </div>
+      );
+    }
+
+    ReactDOM.render(<App />, document.getElementById("root"));
+  </script>
+</html>
