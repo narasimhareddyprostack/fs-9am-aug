@@ -1,13 +1,17 @@
-import React, { Component } from "react";
-/* import "./assets/css/super.css"; */
-export class App extends Component {
+import React from "react";
+import "./assets/css/super.css";
+import Navbar from "./components/Navbar/Navbar";
+import Login from "./components/Login/Login";
+import Product from "./components/Product/Product";
+class App extends React.Component {
   render() {
     return (
-      <div>
-        <button className="btn btn-success">Test</button>
-      </div>
+      <React.Fragment>
+        <Navbar />
+        <Login />
+        <Product />
+      </React.Fragment>
     );
   }
 }
-
 export default App;
