@@ -1,18 +1,16 @@
 import React from "react";
-
-import Navbar from "./Navbar/Navbar";
-import Product from "./component/Product";
-import Wish from "./component/Wish";
 import "./assets/css/super.css";
-
+import Navbar from "./Navbar/Navbar";
+/* import CompA from "./Components/Props/CompA";
+ */
+import Message from "./Components/State/Message";
 class App extends React.Component {
   render() {
     return (
       <React.Fragment>
         <Navbar />
-        <Product />
-        <h4 />
-        <Wish />
+        {/* <CompA /> */}
+        <Message />
       </React.Fragment>
     );
   }
