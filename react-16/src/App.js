@@ -1,8 +1,10 @@
 import React from "react";
 
 import Navbar from "./Navbar/Navbar";
-import Product from "./component/Product";
-import Wish from "./component/Wish";
+/* import Product from "./component/Product";
+import Counter from "./component/Counter";
+import Wish from "./component/Wish"; */
+import Message from "./EventHandling/Message";
 import "./assets/css/super.css";
 
 class App extends React.Component {
@@ -10,9 +12,11 @@ class App extends React.Component {
     return (
       <React.Fragment>
         <Navbar />
-        <Product />
+        {/*  <Product /> */}
         <h4 />
-        <Wish />
+        {/*   <Wish />
+        <Counter /> */}
+        <Message />
       </React.Fragment>
     );
   }

@@ -1,13 +1,17 @@
 import React, { Component } from "react";
 
 class Product extends Component {
-  state = {
-    product_Name: "APPLE iPhone 11 (Yellow, 64 GB)",
-    price: 49999,
-    image:
-      "https://rukminim1.flixcart.com/image/224/224/kgiaykw0/mobile/r/f/s/apple-iphone-11-mhde3hn-a-original-imafwqepzbrcagw3.jpeg?q=90",
-    qty: 1,
-  };
+  constructor(props) {
+    super(props);
+    this.state = {
+      product_Name: "APPLE iPhone 11 (Yellow, 64 GB)",
+      price: 49999,
+      image:
+        "https://rukminim1.flixcart.com/image/224/224/kgiaykw0/mobile/r/f/s/apple-iphone-11-mhde3hn-a-original-imafwqepzbrcagw3.jpeg?q=90",
+      qty: 10,
+    };
+  }
+
   decrHandler = () => {
     this.setState({ qty: this.state.qty - 1 });
   };
@@ -39,12 +43,12 @@ class Product extends Component {
                     <td>{this.state.price}</td>
                     <td>
                       <i
-                        class="fas fa-minus-circle"
+                        className="fas fa-minus-circle"
                         onClick={this.decrHandler}
                       ></i>
                       {this.state.qty}
                       <i
-                        class="fas fa-plus-circle"
+                        className="fas fa-plus-circle"
                         onClick={this.incrHandler}
                       ></i>
                     </td>
