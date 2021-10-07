@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar/Navbar";
-import Registration from "./components/Regi/Registration";
+/* import Login from "./components/Login";
+import Food from "./components/Food"; */
 import "./assets/css/super.css";
 
 class App extends React.Component {
@@ -9,7 +10,8 @@ class App extends React.Component {
       <React.Fragment>
         <Navbar />
         <hr />
-        <Registration />
+        <Login />
+        <Food />
       </React.Fragment>
     );
   }
