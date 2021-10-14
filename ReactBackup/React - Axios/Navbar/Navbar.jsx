@@ -9,8 +9,8 @@ class Navbar extends React.Component {
             React Routing
           </Link>
 
-          <Link to="/contact" className="navbar-brand">
-            Contacts
+          <Link to="/user" className="navbar-brand">
+            User
           </Link>
         </nav>
       </>
