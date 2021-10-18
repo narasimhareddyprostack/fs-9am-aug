@@ -33,6 +33,7 @@ class ContactList extends React.Component {
             })}
           </tbody>
         </table>
+        
       </>
     );
   }

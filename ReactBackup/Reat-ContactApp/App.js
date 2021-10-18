@@ -1,8 +1,7 @@
 import React from "react";
 import "../node_modules/bootstrap/dist/css/bootstrap.css";
 import Navbar from "./Navbar/Navbar";
-import Counter from "./components/Counter";
-import Message from "./components/Message";
+import ContactApp from "./components/Contact/ContactApp";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 class App extends React.Component {
   render() {
@@ -11,8 +10,7 @@ class App extends React.Component {
         <Router>
           <Navbar />
           <Switch>
-            <Route path="/counter" component={Counter} />
-            <Route path="/message" component={Message} />
+            <Route path="/contact" component={ContactApp} />
           </Switch>
         </Router>
       </>

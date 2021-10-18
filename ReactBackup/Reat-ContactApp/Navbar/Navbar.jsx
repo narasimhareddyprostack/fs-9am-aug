@@ -6,14 +6,11 @@ class Navbar extends React.Component {
       <>
         <nav className="navbar navbar-dark bg-dark">
           <Link to="/home" className="navbar-brand">
-            React Hooks
+            React Routing
           </Link>
 
-          <Link to="/counter" className="navbar-brand">
-            Counter
-          </Link>
-          <Link to="/message" className="navbar-brand">
-            Message
+          <Link to="/contact" className="navbar-brand">
+            Contacts
           </Link>
         </nav>
       </>
