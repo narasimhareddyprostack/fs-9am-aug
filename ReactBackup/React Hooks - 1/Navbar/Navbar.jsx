@@ -9,8 +9,8 @@ class Navbar extends React.Component {
             React Hooks
           </Link>
 
-          <Link to="/user" className="navbar-brand">
-            User
+          <Link to="/counter" className="navbar-brand">
+            Counter
           </Link>
           <Link to="/message" className="navbar-brand">
             Message
