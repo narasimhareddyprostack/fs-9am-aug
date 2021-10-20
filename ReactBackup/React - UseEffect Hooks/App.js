@@ -1,9 +1,8 @@
 import React from "react";
 import "../node_modules/bootstrap/dist/css/bootstrap.css";
 import Navbar from "./Navbar/Navbar";
-
+import User from "./components/User";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Cart from "./component/Cart/Cart";
 class App extends React.Component {
   render() {
     return (
@@ -11,7 +10,7 @@ class App extends React.Component {
         <Router>
           <Navbar />
           <Switch>
-            <Route path="/cart" component={Cart} />
+            <Route path="/user" component={User} />
           </Switch>
         </Router>
       </>

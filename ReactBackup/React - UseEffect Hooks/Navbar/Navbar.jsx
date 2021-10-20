@@ -9,8 +9,11 @@ class Navbar extends React.Component {
             React Hooks
           </Link>
 
-          <Link to="/cart" className="navbar-brand">
-            Cart
+          <Link to="/user" className="navbar-brand">
+            User
+          </Link>
+          <Link to="/message" className="navbar-brand">
+            Message
           </Link>
         </nav>
       </>
