@@ -6,11 +6,11 @@ class Navbar extends React.Component {
       <>
         <nav className="navbar navbar-dark bg-dark">
           <Link to="/home" className="navbar-brand">
-            Redux Example
+            React Hooks
           </Link>
 
-          <Link to="/message" className="navbar-brand">
-            Message
+          <Link to="/cart" className="navbar-brand">
+            Cart
           </Link>
         </nav>
       </>
