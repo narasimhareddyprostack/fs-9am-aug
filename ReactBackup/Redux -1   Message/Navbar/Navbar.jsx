@@ -9,8 +9,8 @@ class Navbar extends React.Component {
             Redux Example
           </Link>
 
-          <Link to="/cart" className="navbar-brand">
-            Cart
+          <Link to="/message" className="navbar-brand">
+            Message
           </Link>
         </nav>
       </>
